@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "towerkeep",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +9,21 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.2.5"
+    "@astrojs/svelte": "^7.0.4",
+    "@astrojs/tailwind": "^6.0.0",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@tailwindcss/vite": "^4.0.6",
+    "astro": "^5.2.5",
+    "class-variance-authority": "^0.7.1",
+    "lucide-react": "^0.475.0",
+    "svelte": "^5.19.10",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bits-ui": "^0.22.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.0.1",
+    "tailwind-variants": "^0.3.1"
   }
 }

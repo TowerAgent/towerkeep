@@ -1,48 +1,77 @@
-# Astro Starter Kit: Basics
+# TowerKeep
 
-```sh
-npm create astro@latest -- --template basics
+A modern web project built with Astro, Tailwind CSS, and Svelte. This project demonstrates a robust frontend architecture with a focus on performance and developer experience.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Development](#development)
+- [Build & Deployment](#build--deployment)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+TowerKeep is designed to be a scalable and maintainable web solution. It leverages modern technologies to deliver fast, responsive interfaces with a clean and modular codebase.
+
+## Features
+
+- **Astro Framework:** Fast performance and optimized asset loading.
+- **Tailwind CSS:** Rapid styling with utility-first CSS.
+- **Svelte Components:** Lightweight and reactive UI components.
+- **Modular Architecture:** Organized file structure for easy navigation and maintenance.
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/username/towerkeep.git
+   cd towerkeep
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+## Development
+
+Start the development server with:
+
+```bash
+npm run dev
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+This will launch the project on a local server with live reloading enabled.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Build & Deployment
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+To build the project for production, run:
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+npm run build
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+After building, you can preview the production build with:
 
-## 🧞 Commands
+```bash
+npm run preview
+```
 
-All commands are run from the root of the project, from a terminal:
+## Contributing
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Contributions are welcome! Please follow these guidelines:
 
-## 👀 Want to learn more?
+- Fork the repository and create a feature branch.
+- Write clear and concise commit messages.
+- Ensure the project builds and passes tests before submitting a pull request.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## License
+
+This project is licensed under the terms of the [MIT License](license.md).
+
+Enjoy building with TowerKeep!
